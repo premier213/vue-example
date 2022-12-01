@@ -1,0 +1,17 @@
+{
+  "prettier": {
+    "tabWidth": 4,
+    "useTabs": true,
+    "htmlWhitespaceSensitivity": "ignore",
+    "jsxBracketSameLine": true,
+    "printWidth": 128,
+    "overrides": [
+      {
+        "files": "*.vue",
+        "options": {
+          "parser": "vue"
+        }
+      }
+    ]
+  }
+}
